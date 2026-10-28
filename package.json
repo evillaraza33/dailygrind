@@ -4,13 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
     "uuid": "^14.0.3"
   }
 }
